@@ -13,7 +13,7 @@ function randomMessage (arr1, arr2, arr3) {
     let messagePart2 = randElementSelector (arr2);
     let messagePart3 = randElementSelector (arr3);
 
-    return messagePart1 + ' ' + messagePart2 + ' ' + messagePart3; 
+    return messagePart1 + ' ' + messagePart2 + ' ' + messagePart3 +'.'; 
 }
 
 console.log(randomMessage(comb, letters, numbers));
